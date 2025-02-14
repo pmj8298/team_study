@@ -1,0 +1,6 @@
+# 단어 거꾸로 문제
+words = input("단어를 입력하세요.")
+if words == words[::-1]:
+    print(True)
+else:
+    print(False)
