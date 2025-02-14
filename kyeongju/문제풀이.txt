@@ -1,0 +1,60 @@
+#p1 
+inp = input("떠오르는 단어를 입력하세요. 거꾸로 해도 같은 단어인지 확인해드립니다")
+list(inp)
+num=len(inp)
+if inp[0] == inp[num-1]:
+    print(f'{inp}는 거꾸로 해도 같은 단어입니다')
+else : 
+    print(f'{inp}는 거꾸로 하면 다른 단어입니다')
+
+#p2
+box = []
+evenbox = []
+oddbox=[] 
+count = 0
+while count < 5 : 
+    number = int(input('숫자를 입력하세요'))
+    count = count +1 
+    if number % 2 == 0 :
+        evenbox.append(number)
+    else :
+        oddbox.append(number)
+print(f'{oddbox}는 홀수들입니다')
+print(f'{evenbox}는 짝수들입니다')
+
+#p3 
+inp = input("긴 문장을 적어보세요. 그 중에서 가장 긴 단어를 알려드려요\n")
+words = inp.split()
+wordscount=len(words)
+print(words)
+print(wordscount)
+
+words=max()
+print(words)
+
+#p4
+positive_words =["좋아","행복","멋져","최고","사랑해"]
+negative_words =["싫어","화나","짜증","별로","나빠"]
+
+emo = input("당신의 기분을 한 문장으로 표현해주세요")
+if emo in positive_words:
+    print("기분이 좋아보이네요")
+elif emo in negative_words:
+    print("기분이 나빠보이네요")
+else :
+    print("평범한 하루네요")
+print(type(positive_words))
+#"기분이 좋아보이네요"
+#"기분이 나빠보이네요"
+#"평범한 하루네요"
+
+#p5 
+Esentence = input('영어 문장을 입력하시면, 첫글자를 대문자로 변경해드려요 ')
+Esentence.split()
+count = len(Esentence.split())
+num = 0 
+
+while num < count :
+    Esentence[count - count].upper() 
+# print(Esentence[0].upper() + Esentence[1:])
+    
