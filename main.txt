@@ -1,0 +1,15 @@
+class Example:
+    def __init__(self):
+        self.result = 0
+    def A():
+
+        retuen self.result
+    def B():
+
+        retuen self.result
+    def C():
+
+        retuen self.result
+    def D():
+        
+        retuen self.result
