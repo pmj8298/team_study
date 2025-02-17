@@ -1,22 +1,18 @@
 class Example:
     def __init__(self):
         self.result = 0
-<<<<<<< HEAD
+
     def ex1(self):
         for x in range(65, 91):
             print(chr(x), end=' ')
-=======
-    def ex1():
 
-        retuen self.result
->>>>>>> 39f9967f9721ec802d1883c5f2db13a613357e58
-    def ex2():
+    def ex2(self):
+	for x in range(122,96,-1):
+		print(chr(x), end="")
 
         retuen self.result
     def ex3():
 
-<<<<<<< HEAD
+
         retuen self.result
-=======
-        retuen self.result
->>>>>>> 39f9967f9721ec802d1883c5f2db13a613357e58
+
