@@ -11,8 +11,14 @@ class Example:
 		print(chr(x), end="")
 
         retuen self.result
-    def ex3():
 
+    def ex3(self):
+        for k in range(65,68):
+            for l in range(1,11):
+                print(f"{chr(k)}{l} ",end='')
+            print("\n")
 
-        retuen self.result
-
+ex = Example()
+ex.ex1()  # 예제1
+ex.ex2()  # 예제2
+ex.ex3()  # 예제3
