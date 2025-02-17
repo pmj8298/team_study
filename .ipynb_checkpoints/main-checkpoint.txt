@@ -8,9 +8,7 @@ class Example:
 
     def ex2(self):
 	for x in range(122,96,-1):
-		print(chr(x), end="")
-
-        retuen self.result
+		print(chr(x), end=" ")
 
     def ex3(self):
         for k in range(65,68):
