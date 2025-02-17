@@ -7,24 +7,27 @@ class Example:
             print(chr(x), end=' ')
 
     def ex2(self):
-	for x in range(122,96,-1):
-		print(chr(x), end=" ")
+    	for x in range(122,96,-1):
+    		print(chr(x), end="")
 
     def ex3(self):
         for k in range(65,68):
             for l in range(1,11):
                 print(f"{chr(k)}{l} ",end='')
             print("\n")
-    
+
     def ex4(self):
- 	num = 64
-	while num < 67:
-		num = num + 1 
-    		for x in range(1,11) :
-        		print(chr(num) + str(x))
+     	num = 64
+    	while num < 67:
+    		num = num + 1 
+        		for x in range(1,11) :
+            		print(chr(num) + str(x))
 
 ex = Example()
 ex.ex1()  # 예제1
+print("\n")
 ex.ex2()  # 예제2
+print("\n")
 ex.ex3()  # 예제3
+print("\n")
 ex.ex4()  # 예제4
