@@ -29,3 +29,5 @@ holiday = datetime.date(2025,10,6)
 howlong = (holiday - finalday).days 
 print("2025년 7월 25일:수료일로부터 추석까지 ",howlong,"일이 남았습니다")
 print("수료일은 "+days[finalday.weekday()]+"요일," + "추석은 "+days[holiday.weekday()]+"요일 입니다")
+
+
