@@ -1,3 +1,5 @@
 1. git fetch>git pull로 땡겨받고
 2. 코드 작성/수정?
 3. git push (git status부터 add, commit...)
+
+와 날아갔다
